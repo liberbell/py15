@@ -1,1 +1,1 @@
-open("textfile.txt")
+open("sample.txt")
