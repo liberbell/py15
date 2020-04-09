@@ -10,3 +10,6 @@ print(file.closed)
 
 file = open("sample.txt")
 print(file.read())
+
+print(file.seek(0))
+print(file.read(5))
