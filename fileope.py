@@ -14,4 +14,4 @@ print(file.readline())
 print(file.readline())
 
 file.seek(0)
-print(file.readline())
+print(file.readlines())
