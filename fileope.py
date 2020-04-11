@@ -17,3 +17,7 @@ file.seek(0)
 print(file.readlines())
 
 file.close()
+
+with open("data_file/sample.txt") as f:
+    data = f.readlines()
+print(data)
