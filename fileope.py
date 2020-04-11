@@ -22,3 +22,11 @@ with open("data_file/sample.txt") as f:
     data = f.readlines()
 print(data)
 print(f.closed)
+
+
+with open("data_file/sample.txt") as f:
+    line = f.readline()
+
+    while line:
+        print(line)
+        line = f.readline()
