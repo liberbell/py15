@@ -10,3 +10,5 @@ file.seek(0)
 print(file.read(5))
 
 print(file.readline())
+print(file.readline())
+print(file.readline())
