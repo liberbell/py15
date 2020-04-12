@@ -8,3 +8,5 @@
 file = open("data_file/example.com", "r")
 for lines in file :
     print(lines)
+file.close()
+
