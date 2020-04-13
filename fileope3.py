@@ -19,6 +19,8 @@ import os
 # f.writelines("In 'r' mode, the cursor is initally at the start of the file")
 # f.close()
 
-f = open("data_file/example.com", "a+")
-f.writelines("\nWhat does writing in 'a+' do?")
-f.close()
+# f = open("data_file/example.com", "a+")
+# f.writelines("\nWhat does writing in 'a+' do?")
+# f.close()
+
+os.rename("data_file/example.com", "data_file/example.txt")
