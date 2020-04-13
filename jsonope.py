@@ -6,3 +6,6 @@ car = """{ "model":"Civic",
 }"""
 
 print(car)
+
+car_dict = json.loads(car)
+print(car_dict)
