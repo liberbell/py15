@@ -11,6 +11,10 @@ import os
 # f = open("data_file/example.com", "r")
 # print(f.read())
 
+# f = open("data_file/example.com", "r+")
+# f.writelines("we are doing an 'r+' operation")
+# f.close()
+
 f = open("data_file/example.com", "r+")
-f.writelines("we are doing an 'r+' operation")
+f.writelines("In 'r' mode, the cursor is initally at the start of the file")
 f.close()
