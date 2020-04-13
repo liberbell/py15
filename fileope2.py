@@ -28,3 +28,4 @@ print(f.fileno())
 print(f.isatty())
 
 print(f.readable())
+f.close()
