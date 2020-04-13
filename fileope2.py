@@ -15,11 +15,14 @@
 #     f.write("Second line\n")
 #     f.write("Third line\n")
 
-f = open("data_file/example.com", "a")
-print(f.tell())
+# f = open("data_file/example.com", "a")
+# print(f.tell())
 
-f.writelines(["Another line was appended\n",
-"What will it look like now?\n",
-"Let check it out\n"])
+# f.writelines(["Another line was appended\n",
+# "What will it look like now?\n",
+# "Let check it out\n"])
+
+f = open("data_file/example.com", "r")
+print(f.readlines())
 
 f.close()
