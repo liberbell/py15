@@ -24,5 +24,5 @@
 
 f = open("data_file/example.com", "r")
 print(f.readlines())
-
+print(f.fileno())
 f.close()
