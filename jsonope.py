@@ -14,3 +14,5 @@ print(car_dict['variants'])
 with open("data_file/currency.json", "r") as json_file:
     data = json.load(json_file)
     print(data)
+
+currency = {"Countyry": "India", "Currency": "Rupee"}
