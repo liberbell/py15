@@ -15,6 +15,10 @@ import os
 # f.writelines("we are doing an 'r+' operation")
 # f.close()
 
-f = open("data_file/example.com", "r+")
-f.writelines("In 'r' mode, the cursor is initally at the start of the file")
+# f = open("data_file/example.com", "r+")
+# f.writelines("In 'r' mode, the cursor is initally at the start of the file")
+# f.close()
+
+f = open("data_file/example.com", "a+")
+f.writelines("\nWhat does writing in 'a+' do?")
 f.close()

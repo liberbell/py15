@@ -1,2 +1,1 @@
-we are doing an 'r+' operationine
-Ano
+In 'r' mode, the cursor is initally at the start of the file
