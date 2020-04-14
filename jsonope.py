@@ -21,8 +21,8 @@ json_var = json.dumps(currency)
 print(json_var)
 print(type(json_var))
 
-with open("data_file/currency.json", "w") as json_file:
-    json_file.write(json_var)
+# with open("data_file/currency.json", "w") as json_file:
+#     json_file.write(json_var)
 
-written_data = json.load("data_file/currency.json")
+written_data = json.load(open("data_file/currency.json"))
 print(written_data)
