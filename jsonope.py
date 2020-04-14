@@ -41,3 +41,5 @@ dessert = {"Name": "Ice cream",
 #     json.dump(dessert, json_file)
 
 print(dessert)
+
+print(json.dumps(dessert, indent=2))
