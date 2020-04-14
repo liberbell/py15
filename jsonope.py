@@ -32,3 +32,6 @@ dessert = {"Name": "Ice cream",
 "Topping": True,
 "WaffleCone": "Yes"
 }
+
+dessert_str = json.dumps(dessert)
+print(dessert_str)
