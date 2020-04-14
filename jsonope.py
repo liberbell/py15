@@ -23,3 +23,6 @@ print(type(json_var))
 
 with open("data_file/currency.json", "w") as json_file:
     json_file.write(json_var)
+
+written_data = json.load("data_file/currency.json")
+print(written_data)
