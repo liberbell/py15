@@ -33,9 +33,11 @@ dessert = {"Name": "Ice cream",
 "WaffleCone": "Yes"
 }
 
-dessert_str = json.dumps(dessert)
-print(dessert_str)
-print(type(dessert_str))
+# dessert_str = json.dumps(dessert)
+# print(dessert_str)
+# print(type(dessert_str))
 
-with open("data_file/eat.txt", "w") as json_file:
-    json.dump(dessert, json_file)
+# with open("data_file/eat.txt", "w") as json_file:
+#     json.dump(dessert, json_file)
+
+print(dessert)
