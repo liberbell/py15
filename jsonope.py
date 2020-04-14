@@ -16,3 +16,6 @@ with open("data_file/currency.json", "r") as json_file:
     print(data)
 
 currency = {"Countyry": "India", "Currency": "Rupee"}
+
+json_var = json.dump(currency)
+print(json_var)
