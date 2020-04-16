@@ -44,3 +44,4 @@ print(dessert)
 
 print(json.dumps(dessert, indent=2))
 print(json.dumps(dessert, separators=(":", "=")))
+print(json.dumps(dessert, separators=("|", "~")))
