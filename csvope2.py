@@ -13,3 +13,5 @@ with file:
     read = csv.reader(file, dialect="tab")
     for row in read:
         print(row)
+
+csv.register_dialect("plus", delimiter = "+", lineterminator = "\n\n\r")
