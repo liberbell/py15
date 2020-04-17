@@ -15,3 +15,8 @@ with file:
         print(row)
 
 csv.register_dialect("plus", delimiter = "+", lineterminator = "\n\n\r")
+
+names = [["First Name", "Last Name"],
+    ["Sofia", "Reyes"],
+    ["Jerome", "Jackson"]
+    ["Jia", "Zhong"]]
