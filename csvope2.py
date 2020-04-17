@@ -6,6 +6,8 @@ import csv
 #     for row in read:
 #         print(dict(row))
 
+csv.register_dialect("tab", delimiter = "\t")
+
 file = open("data_file/record_tab.csv", "r")
 with file:
     read = csv.reader(file, dialect="tab")
