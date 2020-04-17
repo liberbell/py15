@@ -14,6 +14,6 @@ with file:
 
 file = open("data_file/record_tab.csv", "r")
 with file:
-    read = csv.reader(file)
+    read = csv.reader(file, delimiter="\t")
     for row in read:
         print(row)
