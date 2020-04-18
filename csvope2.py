@@ -20,3 +20,8 @@ names = [["First Name", "Last Name"],
     ["Sofia", "Reyes"],
     ["Jerome", "Jackson"]
     ["Jia", "Zhong"]]
+
+file = open("data_file/names_dialect.csv", "w")
+
+with file:
+    file_writer = csv.writer(file, dialect= "plus")
